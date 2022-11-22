@@ -66,3 +66,31 @@ div{
     font-size: 20px;
     padding: 30px;
 }
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5
+    ;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+
+div.hover.hover{
+    width: 300px;
+    background-color: rgb(145, 255, 0);
+}
+
+.button{
+    background-color: blue;
+    color: wheat;
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
